@@ -29,6 +29,6 @@ public class CardTester {
                System.out.println("My card is the: " + z.suit() + " suit");
                System.out.println("My card is worth: " + z.pointValue() + " points");
                System.out.println(z); // test the toString Method
-               System.out.println("this should be false: " + x.matches(z))
+               System.out.println("this should be false: " + x.matches(z));
 	}
 }
