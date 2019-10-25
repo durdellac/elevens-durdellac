@@ -66,8 +66,15 @@ public class Deck {
      * Randomly permute the given collection of cards and reset the size to
      * represent the entire deck.
      */
+    //I can add the in-shuffle later for extra credit
     public void shuffle() {
         /* *** TO BE IMPLEMENTED IN ACTIVITY 4 *** */
+        //make a temp array of the same length
+        //save the midpoint for easy reference
+        //unshuffled int that will go up by two
+        //make a counter k that will go up by one
+        
+        //
     }
 
     /**

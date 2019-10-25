@@ -16,7 +16,7 @@ public class DeckTester {
             
             //NEW ASSETS
             String[] time = {"sometimes", "all the time", "but it do", "but it be"};
-            String[] b = {"it be like that", "how it be", "what it do", "sad, ", "when", "they say AAAAA,", "seven", "eight", "nine", "ten", "jack", "queen", "king"};
+            String[] b = {"it be like that", "how it be", "what it do", "sad, ", "when", "they say AAAAA,", "smooth operator", "My sources say no", "Most likely", "Very doubtful", "Outlook not so good", "queen", "king(of the hill)"};
             int[] why = {1,2,3,4,5,6,7,8,9,10,11,12,13};
                  
             /*** Example deck 1 ***/
