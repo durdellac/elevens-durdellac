@@ -39,7 +39,6 @@ public class Deck {
             }
         }
         //initializethe the size variable 
-        this.size = cards.size();
         shuffle();
     } // close constructer
         /**
@@ -68,8 +67,9 @@ public class Deck {
      * represent the entire deck.
      */
     public void shuffle() {
+        this.size = cards.size();
         Card temp;
-        for(int i = cards.size(); i > 0; i--){
+        for(int i = (cards.size()-1); i > 0; i--){
             int pos = (int)(Math.random()*(i+1));
             
             temp = cards.get(pos);
